@@ -8,7 +8,6 @@ import re
 
 input_path = Path("alchemy_clean.rdf")
 output_path = Path("alchemy_full.rdf")
-mappings_csv = Path("mappings.csv")
 
 g = Graph()
 g.parse(str(input_path), format="xml")
