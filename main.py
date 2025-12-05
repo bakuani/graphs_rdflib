@@ -2,7 +2,6 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, OWL
 from pathlib import Path
 from urllib.parse import quote
-import csv
 import uuid
 import re
 
